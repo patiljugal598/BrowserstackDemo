@@ -1,0 +1,213 @@
+09:58:48.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+09:58:48.021 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:58:48.367 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\patil\\eclipse-workspace\\crossbrowserTest, user.dir=C\:\\Users\\patil\\eclipse-workspace\\crossbrowserTest, localrepository=C\:\\Users\\patil\\.m2\\repository}
+09:58:48.369 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\patil\eclipse-workspace\crossbrowserTest\browserstack.yml
+09:58:48.443 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:58:48.775 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+09:58:48.775 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+09:58:48.782 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire12808553745285052654tmp
+09:58:48.782 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire12808553745285052654tmp
+09:58:48.782 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.15.0
+09:58:48.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:58:48.787 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+09:58:48.787 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+09:58:48.787 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+09:58:48.787 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+09:58:49.154 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+09:58:49.302 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 144ms
+09:58:50.093 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 786ms
+09:58:51.607 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1512ms
+09:58:51.610 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+09:58:51.632 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"Azq9qgzutEWNCsLPDoXB","userName":"jugalpatil_rzas7J","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"17.0.9","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"af8098c6-dea0-4d5c-86df-9b4eaacf85bc","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.15.0","hostname":"LAPTOP-LRF84BSB","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.21.0","seleniumVersion":"4.21.0"}}
+09:58:52.029 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+09:58:52.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:58:52.047 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:28:52.046178900Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+09:58:52.047 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+09:58:53.373 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:58:53.373 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7
+09:58:53.374 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-27T04:28:53.374496100Z][ OBSERVABILITY ] Build creation successfull!
+
+09:58:53.374 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:58:53.381 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 27_May_958_LAPTOP_LRF84BSB_wZUy
+09:59:16.904 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:59:17.528 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+09:59:17.730 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.730927400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.733 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.733930200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.740 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.740934400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.740 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.740934400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.740 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.740934400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.761 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.761937400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.762 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.762935100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.763 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.763927100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.763 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.763927100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.763 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.763927100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.773 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.773927100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.773 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.773927100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.774 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.774931600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.774 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.774931600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.774 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.774931600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:17.779 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.779932300Z][ OBSERVABILITY ] Processing Logs patching stream
+09:59:17.882 [Test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+09:59:17.883 [Test-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+09:59:17.882 [Test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+09:59:17.882 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+09:59:17.884 [Test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+09:59:17.884 [Test-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+09:59:17.905 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+09:59:17.906 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+09:59:17.906 [Test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+09:59:17.906 [Test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+09:59:17.906 [Test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+09:59:17.906 [Test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+09:59:17.914 [Test-1@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.914969800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+09:59:17.914 [Test-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.914969800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+09:59:17.914 [Test-2@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:17.914969800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+09:59:19.737 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:19.737542200Z][ OBSERVABILITY ] Time Since Last Batch Processed 1716784159737
+
+09:59:19.743 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:19.743518700Z][ OBSERVABILITY ] Processing Batch 18
+
+09:59:19.743 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+09:59:19.979 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:59:19.979 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-27T04:29:19.979268100Z][ OBSERVABILITY ] Batch event successfull!
+
+09:59:21.740 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:21.740728600Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+09:59:25.093 [titleCheck@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+09:59:25.735 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:25.735685700Z][ OBSERVABILITY ] Time Since Last Batch Processed 3995
+
+09:59:26.437 [titleCheck@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:26.436554500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:26.473 [titleCheck@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+09:59:26.473 [titleCheck@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+09:59:26.481 [titleCheck@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+09:59:26.482 [titleCheck@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+09:59:26.487 [titleCheck@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:26.487446300Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+09:59:26.510 [titleCheck@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+09:59:26.672 [titleCheck@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+09:59:27.743 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:27.743686500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2008
+
+09:59:27.744 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:27.744716700Z][ OBSERVABILITY ] Processing Batch 2
+
+09:59:27.744 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+09:59:27.984 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:59:27.985 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-27T04:29:27.985640100Z][ OBSERVABILITY ] Batch event successfull!
+
+09:59:29.520 [titleCheck@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:29.520691600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+09:59:29.547 [titleCheck@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+09:59:29.547 [titleCheck@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+09:59:29.557 [titleCheck@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+09:59:29.557 [titleCheck@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+09:59:29.566 [titleCheck@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:29.565278800Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+09:59:29.582 [titleCheck@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+09:59:31.739 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:31.739065300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3996
+
+09:59:31.740 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:31.740087300Z][ OBSERVABILITY ] Processing Batch 2
+
+09:59:31.740 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+09:59:31.976 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:59:31.977 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-27T04:29:31.977374800Z][ OBSERVABILITY ] Batch event successfull!
+
+09:59:33.741 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:33.741495Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+09:59:35.744 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:35.744766Z][ OBSERVABILITY ] Time Since Last Batch Processed 2003
+
+09:59:39.736 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:39.736163300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3992
+
+09:59:41.739 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:41.739736300Z][ OBSERVABILITY ] Time Since Last Batch Processed 2003
+
+09:59:43.743 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:43.743622500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+09:59:47.737 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:47.737549100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3994
+
+09:59:51.744 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:51.744275800Z][ OBSERVABILITY ] Time Since Last Batch Processed 4007
+
+09:59:53.745 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:53.745616100Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+09:59:57.737 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:29:57.737521300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3992
+
+10:00:01.737 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:01.737776Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+10:00:05.738 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:05.738915400Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+10:00:07.742 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:07.742064300Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+10:00:09.746 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:09.746769800Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+10:00:13.744 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:13.744627700Z][ OBSERVABILITY ] Time Since Last Batch Processed 3998
+
+10:00:17.735 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:17.735414300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3991
+
+10:00:21.740 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:21.740576900Z][ OBSERVABILITY ] Time Since Last Batch Processed 4005
+
+10:00:25.747 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:25.747891900Z][ OBSERVABILITY ] Time Since Last Batch Processed 4007
+
+10:00:29.737 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:29.737933600Z][ OBSERVABILITY ] Time Since Last Batch Processed 3990
+
+10:00:31.747 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:31.747531300Z][ OBSERVABILITY ] Time Since Last Batch Processed 2010
+
+10:00:35.477 [titleCheck@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+10:00:35.736 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:35.736864300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3989
+
+10:00:37.213 [titleCheck@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:37.213133400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:00:37.242 [titleCheck@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: browserstack.crossbrowserTest.TestDemo 
+10:00:37.242 [titleCheck@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\patil\eclipse-workspace\crossbrowserTest, TestClass :: browserstack\crossbrowserTest\TestDemo
+10:00:37.251 [titleCheck@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\patil\eclipse-workspace\crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, fileSeparator :: \, AbsolutePath :: C:\Users\patil\eclipse-workspace\crossbrowserTest\., Normalized Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest, File.Separator :: \
+10:00:37.251 [titleCheck@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: crossbrowserTest\src\main\java\browserstack\crossbrowserTest\TestDemo.java, Absolute Path :: C:\Users\patil\eclipse-workspace\crossbrowserTest\.., Normalized Path :: C:\Users\patil\eclipse-workspace 
+10:00:37.256 [titleCheck@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:37.256474700Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:00:37.277 [titleCheck@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+10:00:37.747 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:37.747535900Z][ OBSERVABILITY ] Time Since Last Batch Processed 2011
+
+10:00:37.748 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:37.748552700Z][ OBSERVABILITY ] Processing Batch 2
+
+10:00:37.748 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:00:38.630 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+10:00:38.631 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+10:00:38.746 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+10:00:38.855 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+10:00:38.895 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:00:38.895 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-27T04:30:38.895089500Z][ OBSERVABILITY ] Batch event successfull!
+
+10:00:38.964 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:00:38.964 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:38.964510100Z][ OBSERVABILITY ] Processing stop observability
+10:00:38.964 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-27T04:30:38.964510100Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+10:00:38.964 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7/stop
+10:00:39.204 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:00:39.205 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+10:00:39.205 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7 to view build report, insights, and many more debugging information all at one place!
+
+10:00:42.781 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+10:00:42.825 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"Azq9qgzutEWNCsLPDoXB","userName":"jugalpatil_rzas7J","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"17.0.9","appiumVersion":"","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":307,"retransformClasses":308},"language":"java","sdkRunId":"af8098c6-dea0-4d5c-86df-9b4eaacf85bc","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.15.0","hostname":"LAPTOP-LRF84BSB","measures":{"local:start":23525,"sdk:setup":28948,"local:stop":3568},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"failedCount":0,"sentCount":0,"triggeredCount":0},"finished":{"triggeredCount":0,"failedCount":0,"sentCount":0}},"logEvents":{"failedCount":0,"sentCount":18,"triggeredCount":18,"log":{"failedCount":0,"sentCount":18,"triggeredCount":18}},"testEvents":{"started":{"failedCount":0,"sentCount":3,"triggeredCount":3},"finished":{"triggeredCount":3,"failedCount":0,"sentCount":3},"passed":{"failedCount":0,"sentCount":3,"triggeredCount":3}},"cbtSessionEvents":{"failedCount":0,"sentCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"detectedSeleniumVersion":"4.21.0","seleniumVersion":"4.21.0"}}
+10:00:43.169 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+10:00:55.559 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1ddfaf964b3f1dc9700df2eb940aacc05a901acd
+10:00:55.559 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:00:55.560 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  1) is not same as client side buildName(browserstack-build-1 #1)

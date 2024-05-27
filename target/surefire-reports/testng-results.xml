@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T09:59:17 IST" name="Suite" finished-at="2024-05-27T10:00:37 IST" duration-ms="79486">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T09:59:17 IST" name="Test-1" finished-at="2024-05-27T09:59:26 IST" duration-ms="8719">
+      <class name="browserstack.crossbrowserTest.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:browserstack.crossbrowserTest.TestDemo@14fc5d40]" started-at="2024-05-27T09:59:17 IST" name="titleCheck" finished-at="2024-05-27T09:59:26 IST" duration-ms="8572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- browserstack.crossbrowserTest.TestDemo -->
+    </test> <!-- Test-1 -->
+    <test started-at="2024-05-27T09:59:17 IST" name="Test-0" finished-at="2024-05-27T09:59:29 IST" duration-ms="11791">
+      <class name="browserstack.crossbrowserTest.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:browserstack.crossbrowserTest.TestDemo@77a281fc]" started-at="2024-05-27T09:59:17 IST" name="titleCheck" finished-at="2024-05-27T09:59:29 IST" duration-ms="11656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- browserstack.crossbrowserTest.TestDemo -->
+    </test> <!-- Test-0 -->
+    <test started-at="2024-05-27T09:59:17 IST" name="Test-2" finished-at="2024-05-27T10:00:37 IST" duration-ms="79486">
+      <class name="browserstack.crossbrowserTest.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:browserstack.crossbrowserTest.TestDemo@47d7bfb3]" started-at="2024-05-27T09:59:17 IST" name="titleCheck" finished-at="2024-05-27T10:00:37 IST" duration-ms="79349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- browserstack.crossbrowserTest.TestDemo -->
+    </test> <!-- Test-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

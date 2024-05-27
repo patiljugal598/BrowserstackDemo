@@ -1,0 +1,13 @@
+09:58:48.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+09:58:48.021 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:58:48.367 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\patil\\eclipse-workspace\\crossbrowserTest, user.dir=C\:\\Users\\patil\\eclipse-workspace\\crossbrowserTest, localrepository=C\:\\Users\\patil\\.m2\\repository}
+09:58:48.369 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\patil\eclipse-workspace\crossbrowserTest\browserstack.yml
+09:58:48.443 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:58:48.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:58:52.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:58:53.374 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:59:16.904 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:00:39.205 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/flumiu5ksq35hbsgxuxisaefpzz8xjewyag4gto7 to view build report, insights, and many more debugging information all at one place!
+
+10:00:55.559 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1ddfaf964b3f1dc9700df2eb940aacc05a901acd
+10:00:55.559 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
